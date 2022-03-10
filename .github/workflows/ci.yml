@@ -2,7 +2,7 @@ name: Run Test & Coverage
 
 on:
   pull_request:
-    branches: [ master, prod ]
+    branches: [ main, DevOps ]
 
 concurrency:
     group: ci-pipeline-${{ github.head_ref }}
