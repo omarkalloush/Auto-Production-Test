@@ -1,6 +1,6 @@
 # Auto-Production-Test
 
-git add . && git commit -m "Test 7" && git push
+git add . && git commit -m "Test 8" && git push
 
 Pull Request bash script test #1
 
@@ -13,3 +13,5 @@ test Merge rules #4
 mohammad test #5
 
 yaser test #6
+
+release test #7
