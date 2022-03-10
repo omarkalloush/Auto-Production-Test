@@ -1,5 +1,7 @@
 # Auto-Production-Test
 
+git add . && git commit -m "Test 7" && git push
+
 Pull Request bash script test #1
 
 Pull Request workflow #2
