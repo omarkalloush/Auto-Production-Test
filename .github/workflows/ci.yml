@@ -1,0 +1,17 @@
+name: Run Test & Coverage
+
+on:
+  pull_request:
+    branches: [ master, prod ]
+
+concurrency:
+    group: ci-pipeline-${{ github.head_ref }}
+    cancel-in-progress: true
+
+jobs:
+  ci:
+    name: 'Test & Coverage'
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
