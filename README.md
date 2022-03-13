@@ -1,6 +1,6 @@
 # Auto-Production-Test
 
-git add . && git commit -m "Test 11" && git push
+git add . && git commit -m "Test 12" && git push
 
 Tests:
     - Pull Request bash script test #1
@@ -14,3 +14,4 @@ Tests:
     - last release test #9
     - testing cloning and removing repos #10
     - F I N A L - T E S T #11
+    - Added The Final Script #--
