@@ -13,3 +13,4 @@ Tests:
     - release test 2 #8
     - last release test #9
     - testing cloning and removing repos #10
+    - F I N A L - T E S T #11
