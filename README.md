@@ -1,17 +1,17 @@
 # Auto-Production-Test
+These Bash scripts were written to make the release process much more eaiser.
 
-git add . && git commit -m "Test 12" && git push
+Requirements:
+    - Github account configured on the local machine
+      that has access and privilage to release the 
+      Repositories
 
-Tests:
-    - Pull Request bash script test #1
-    - Pull Request workflow #2
-    - test Workflows #3
-    - test Merge rules #4
-    - mohammad test #5
-    - yaser test #6
-    - release test #7
-    - release test 2 #8
-    - last release test #9
-    - testing cloning and removing repos #10
-    - F I N A L - T E S T #11
-    - Added The Final Script #--
+    - Git Commands
+
+    - Github CLI
+
+    Run the sshUrl_list.sh and specifiy the name of the Organization or User you want to issue the
+release from, then you'll acquire the text file that contains the repositories ssh links. 
+
+    After that, run the release.sh script and provide it with a release number so it can automatically
+generate release tag and release title.

@@ -3,8 +3,7 @@
 echo "Enter Release Number:"
 read RELEASE_NUMBER
 
-# How can we inhance this ?!
-file='repos.txt'
+file='.repos'
 
 while read line; do
     git clone $line
