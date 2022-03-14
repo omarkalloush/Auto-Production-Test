@@ -8,7 +8,7 @@ Requirements:
      Repositories
      
    - Git Commands
-   - 
+   
    - Github CLI
 
    Run the sshUrl_list.sh and specifiy the name of the Organization or User you want to issue the
