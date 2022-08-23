@@ -16,3 +16,5 @@ release from, then you'll acquire the text file that contains the repositories s
 
    After that, run the release.sh script and provide it with a release number so it can automatically
 generate release tag and release title.
+
+---
